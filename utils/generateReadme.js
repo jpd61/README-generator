@@ -31,8 +31,8 @@ ${answers.contributing}
 ### GitHub Username
 ${answers.email}
 ### Avatar Image
-${answers.avatar_url}
-Copyright 2020 &copy;
+<img src="${answers.avatar_url}"/>
+/nCopyright 2020 &copy;
     `;
   }
   
