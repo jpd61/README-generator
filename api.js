@@ -10,7 +10,6 @@ function apiCall( username ) {
     
     const result = {
         avatar_url: response.data.avatar_url,
-        email : (response.data.email) ? response.email : response.email
     }
     return result;
   })

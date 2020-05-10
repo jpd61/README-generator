@@ -1,42 +1,40 @@
 
-<h1 align="center">Welcome to README-generator 👋</h1>
-Using Node.js, generate a template README.md file with users input to generate the README.
-test
+<h1 align="center">Welcome to test 👋</h1>
 
-        
-## Table of Contents
+## Description 📘
+![badge](https://img.shields.io/badge/license-GNU General Public License-brightgreen)<br />
+a breif description of the project
+
+## Table of Contents 📜
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Questions](#questions)
 - [License](#license)
-- [Contributors](#contributors)
-- [Acknowledgments](#acknowledgments)
-- [Acknowledgments](#Github)
-        
-## Description    
-test
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+- [Author](#author)
 
-### Installation
-test
+## Installation 💻
+there is no installation process
 
-### 🚀 Usage
-test
+## 🚀 Usage
+creating a readme
 
-### Questions
-test
-        
-### 📝 License
-![badge](https://img.shields.io/badge/license-Apache-brightgreen)
+## 📝 License
+![badge](https://img.shields.io/badge/license-GNU General Public License-brightgreen)
 
-### 🤝 Contributors
-test
+## 🤝 Contributing
+Joseph DeWoody
 
-### Acknowledgments
-undefined
+## Tests ✏️
+yes many tests
 
-### GitHub  👤 
-jpd61:undefined
-<img src="https://avatars3.githubusercontent.com/u/61440109?v=4"/>
-_This README was generated with ❤️ by [README-generator](https://github.com/jpd61/README-generator)_
+## Questions ❓
+call me!<br />
+jpd61:<br />
+✉️ Email me with any questions: undefined<br />
+<img src="https://avatars3.githubusercontent.com/u/61440109?v=4"/><br />
+
+_This README was generated with ❤️ by [README-generator](https://github.com/jpd61/README-generator) 🔥🔥🔥_
     

@@ -1,48 +1,44 @@
 // Generate the Readme function
 function generateReadme(answers) {
     return `
-<h1 align="center">Welcome to README-generator 👋</h1>
-Using Node.js, generate a template README.md file with users input to generate the README.
-${answers.projectTitle}
+<h1 align="center">Welcome to ${answers.projectTitle} 👋</h1>
 
-        
-## Table of Contents
+## Description 📘
+![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)<br />
+${answers.description}
+
+## Table of Contents 📜
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Questions](#questions)
 - [License](#license)
-- [Contributors](#contributors)
-- [Acknowledgments](#acknowledgments)
-- [Acknowledgments](#Github)
-        
-## Description    
-${answers.description}
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+- [Author](#author)
 
-### Installation
+## Installation 💻
 ${answers.installation}
 
-### 🚀 Usage
+## 🚀 Usage
 ${answers.usage}
 
-### Questions
-${answers.questions}
-        
-### 📝 License
+## 📝 License
 ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
 
-### 🤝 Contributors
+## 🤝 Contributing
 ${answers.contributing}
 
-### Acknowledgments
-${answers.acknowledgements}
+## Tests ✏️
+${answers.tests}
 
-### GitHub  👤 
-${answers.username}:\
-${answers.email}
-<img src="${answers.avatar_url}"/>\
+## Questions ❓
+${answers.questions}<br />
+${answers.username}:<br />
+✉️ Email me with any questions: ${answers.email}<br />
+<img src="${answers.avatar_url}"/><br />
 
-_This README was generated with ❤️ by [README-generator](https://github.com/jpd61/README-generator)_
+_This README was generated with ❤️ by [README-generator](https://github.com/jpd61/README-generator) 🔥🔥🔥_
     `;
   }
   

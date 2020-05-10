@@ -56,18 +56,18 @@ function promptUser(){
         },
         {
             type: "input",
-            name: "acknowledgments",
-            message: "Is anyone to be acknowledge?"
-        },
-        {
-            type: "input",
             name: "questions",
-            message: "What do I do if I have an issue?"
+            message: "What do I do if I have an issue? "
         },
         {
             type: "input",
             name: "username",
-            message: "Please enter your GitHub username"
+            message: "Please enter your GitHub username: "
+        },
+        {
+            type: "input",
+            name: "email",
+            message: "Please enter your email: "
         }
     ]);
 } 
