@@ -1,13 +1,13 @@
 // Generate the Readme function
 function generateReadme(answers) {
     return `
-<h1 align="center">Welcome to ${answers.projectTitle} 👋</h1>
+<h1 align="center">${answers.projectTitle} 👋</h1>
 
-## Description 📘
+## Description
 ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)<br />
 ${answers.description}
 
-## Table of Contents 📜
+## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -17,22 +17,22 @@ ${answers.description}
 - [Questions](#questions)
 - [Author](#author)
 
-## Installation 💻
+## Installation
 ${answers.installation}
 
-## 🚀 Usage
+## Usage
 ${answers.usage}
 
-## 📝 License
+## License
 ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
 
-## 🤝 Contributing
+## Contributing
 ${answers.contributing}
 
-## Tests ✏️
+## Tests
 ${answers.tests}
 
-## Questions ❓
+## Questions
 ${answers.questions}<br />
 ${answers.username}:<br />
 ✉️ Email me with any questions: ${answers.email}<br />

@@ -36,10 +36,10 @@ function promptUser(){
             choices: [
                 "Apache",
                 "Academic Free License",
-                "GNU General Public License",
+                "GNU",
                 "ISC",
-                "MIT License",
-                "Mozilla Public",
+                "MIT",
+                "Mozilla",
                 "Open Software",
                 "The Unlicense"
             ]
@@ -77,11 +77,9 @@ function promptUser(){
     try {
       const answers = await promptUser();
       const results = await apiCall(answers.username);
-      answers.email = results.email;
       answers.avatar_url = results.avatar_url;
       const generateContent = generateReadme(answers);
        
-      console.log(results);
       await writeFileAsync('README.md', generateContent);
   
       console.log('✔️  Successfully wrote to README.md');

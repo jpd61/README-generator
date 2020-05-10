@@ -1,11 +1,11 @@
 
-<h1 align="center">Welcome to test 👋</h1>
+<h1 align="center">Amazing README Generator 👋</h1>
 
-## Description 📘
-![badge](https://img.shields.io/badge/license-GNU General Public License-brightgreen)<br />
-a breif description of the project
+## Description
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
+A generator for readmes that I made
 
-## Table of Contents 📜
+## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -15,25 +15,25 @@ a breif description of the project
 - [Questions](#questions)
 - [Author](#author)
 
-## Installation 💻
-there is no installation process
+## Installation
+node npm inquirer axios
 
-## 🚀 Usage
-creating a readme
+## Usage
+UT coding bootcamp
 
-## 📝 License
-![badge](https://img.shields.io/badge/license-GNU General Public License-brightgreen)
+## License
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
-## 🤝 Contributing
+## Contributing
 Joseph DeWoody
 
-## Tests ✏️
-yes many tests
+## Tests
+Yes
 
-## Questions ❓
-call me!<br />
+## Questions
+Call me<br />
 jpd61:<br />
-✉️ Email me with any questions: undefined<br />
+✉️ Email me with any questions: jpd@dewoodyoil.com<br />
 <img src="https://avatars3.githubusercontent.com/u/61440109?v=4"/><br />
 
 _This README was generated with ❤️ by [README-generator](https://github.com/jpd61/README-generator) 🔥🔥🔥_
