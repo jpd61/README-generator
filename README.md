@@ -1,7 +1,5 @@
 
 <h1 align="center">README.md Generator Using Node.js 👋</h1>
-
-## Description
   
 <p align="center">
     <img src="https://img.shields.io/github/repo-size/jpd61/README-generator" />
@@ -22,6 +20,8 @@
     <img src="https://img.shields.io/badge/-json-orange" />
 </p>
    
+## Description
+  
 🔍 A node.js application that uses user input from inquirer to populate a README.md file for user repository. The README.md file is created in the dist directory and can be found [here](.dist/README.md)  
   
 Below is the gif showing the functionality of the application:
@@ -37,28 +37,25 @@ The full movie file showing functionality of the application can be found [here]
 - [Usage](#usage)
 - [License](#license)
 - [Contributing](#contributing)
-- [Tests](#tests)
 - [Questions](#questions)
 
 ## Installation
-💾 test
-
+💾   
+`npm install inquirer`
+  
 ## Usage
-💻 test
+💻   
+Run the following command at th root of your project and answer the prompted questions:
+  
+`node index.js`
 
 ## License
 ![badge](https://img.shields.io/badge/license-ISC-brightgreen)
 
 ## Contributing
-👪 test
-
-## Tests
-✏️ test
+:octocat: ![Joseph DeWoody](https://github.com/jpd61)
 
 ## Questions
-✋ test<br />
-🚶 jpd61:<br />
-✉️ Email me with any questions: jpd@dewoodyoil.com<br />
+✉️ Contact me with any questions: [email](jpd@dewoodyoil.com) , [GitHub](https://github.com/jpd61)<br />
 
-_This README was generated with ❤️ by [README-generator](https://github.com/jpd61/README-generator) 🔥🔥🔥_
     
