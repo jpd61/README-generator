@@ -34,13 +34,13 @@ function promptUser(){
             name: "license",
             message: "Chose the appropiate license for this project",
             choices: [
-                "Apache License 2.0",
-                "Academic Free License v3.0",
-                "GNU General Public License v3.0",
+                "Apache",
+                "Academic Free License",
+                "GNU General Public License",
                 "ISC",
                 "MIT License",
-                "Mozilla Public License 2.0",
-                "Open Software License 3.0",
+                "Mozilla Public",
+                "Open Software",
                 "The Unlicense"
             ]
         },

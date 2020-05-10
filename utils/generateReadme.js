@@ -35,8 +35,9 @@ ${answers.usage}
 ### Questions
 ${answers.questions}
         
-### License${answers.license}
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+### License
+${answers.license}
+![License](https://img.shields.io/github/license/${answers.username}/reponame?label=License&logo=${answers.license}&style=for-the-badge)
 
 ### Contributors
 ${answers.contributing}
