@@ -1,4 +1,3 @@
-
 // Api call to Axios
 const axios = require("axios");
 
