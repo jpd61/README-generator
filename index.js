@@ -16,12 +16,12 @@ function promptUser(){
         {
             type: "input",
             name: "description",
-            message: "Write a brief description of your project"
+            message: "Write a brief description of your project: "
         },
         {
             type: "input",
             name: "installation",
-            message: "Describe the installation process if any",
+            message: "Describe the installation process if any: ",
         },
         {
             type: "input",
@@ -31,16 +31,15 @@ function promptUser(){
         {
             type: "list",
             name: "license",
-            message: "Chose the appropiate license for this project",
+            message: "Chose the appropriate license for this project: ",
             choices: [
                 "Apache",
-                "Academic Free License",
+                "Academic",
                 "GNU",
                 "ISC",
                 "MIT",
                 "Mozilla",
-                "Open Software",
-                "The Unlicense"
+                "Open"
             ]
         },
         {
@@ -76,7 +75,7 @@ function promptUser(){
     try {
       const answers = await promptUser();
       const generateContent = generateReadme(answers);
-      await writeFileAsync('README.md', generateContent);
+      await writeFileAsync('./dist/README.md', generateContent);
   
       console.log('✔️  Successfully wrote to README.md');
     } catch(err) {

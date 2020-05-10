@@ -33,8 +33,8 @@ function generateReadme(answers) {
 
 ## Questions
 ✋ ${answers.questions}<br />
-🚶 ${answers.username}:<br />
-✉️ Email me with any questions: ${answers.email}<br />
+<br />
+✉️ Email me with any questions: ${answers.email}<br /><br />
 
 _This README was generated with ❤️ by [README-generator](https://github.com/jpd61/README-generator) 🔥🔥🔥_
     `;
