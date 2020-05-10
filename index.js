@@ -5,7 +5,7 @@ const inquirer = require("inquirer");
 const generateReadme = require("./utils/generateReadme")
 const writeFileAsync = util.promisify(fs.writeFile);
 
-//Prompt the user for Github username and project details
+//Prompt the user questions to populate the README.md
 function promptUser(){
     return inquirer.prompt([
         {
@@ -50,7 +50,7 @@ function promptUser(){
         {
             type: "input",
             name: "tests",
-            message: "Is there a Test included"
+            message: "Is there a test included?"
         },
         {
             type: "input",
@@ -70,16 +70,17 @@ function promptUser(){
     ]);
 } 
 
-// Function async Inititing 
+// Async function using util.promisify 
   async function init() {
     try {
-      const answers = await promptUser();
-      const generateContent = generateReadme(answers);
-      await writeFileAsync('./dist/README.md', generateContent);
-  
-      console.log('✔️  Successfully wrote to README.md');
-    } catch(err) {
-      console.log(err);
+        // Ask user questions and generate responses
+        const answers = await promptUser();
+        const generateContent = generateReadme(answers);
+        // Write new README.md to dist directory
+        await writeFileAsync('./dist/README.md', generateContent);
+        console.log('✔️  Successfully wrote to README.md');
+    }   catch(err) {
+        console.log(err);
     }
   }
   
