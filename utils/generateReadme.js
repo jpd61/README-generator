@@ -5,7 +5,7 @@ function generateReadme(answers) {
 
 ## Description
 ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)<br />
-${answers.description}
+🔍 ${answers.description}
 
 ## Table of Contents
 - [Description](#description)
@@ -15,28 +15,27 @@ ${answers.description}
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
-- [Author](#author)
 
 ## Installation
-${answers.installation}
+💾 ${answers.installation}
 
 ## Usage
-${answers.usage}
+💻 ${answers.usage}
 
 ## License
 ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
 
 ## Contributing
-${answers.contributing}
+👪 ${answers.contributing}
 
 ## Tests
-${answers.tests}
+✏️ ${answers.tests}
 
 ## Questions
-${answers.questions}<br />
-${answers.username}:<br />
+✋ ${answers.questions}<br />
+🚶 ${answers.username}:<br />
 ✉️ Email me with any questions: ${answers.email}<br />
-<img src="${answers.avatar_url}"/><br />
+<img src="${answers.avatar_url}" alt="${answers.username}" width=50"/><br />
 
 _This README was generated with ❤️ by [README-generator](https://github.com/jpd61/README-generator) 🔥🔥🔥_
     `;
