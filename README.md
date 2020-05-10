@@ -1,5 +1,5 @@
 
-# README.md_Generator
+<h1 align="center">Welcome to README-generator 👋</h1>
 Using Node.js, generate a template README.md file with users input to generate the README.
 test
 
@@ -7,15 +7,12 @@ test
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
-- [Dependencies](#dependencies)
 - [Usage](#usage)
-- [Built With](#built-with)
 - [Questions](#questions)
 - [License](#license)
 - [Contributors](#contributors)
 - [Acknowledgments](#acknowledgments)
-- [Images](#images)
-- [Copyright](#copyright)
+- [Acknowledgments](#Github)
         
 ## Description    
 test
@@ -23,31 +20,23 @@ test
 ### Installation
 test
 
-### Usage
+### 🚀 Usage
 test
-
-### Built With
-* [VScode](https://code.visualstudio.com/)
-* [Gitbash](https://gitforwindows.org/)
 
 ### Questions
 test
         
-### License
-MIT License
-![License](https://img.shields.io/github/license/jpd61/reponame?label=License&logo=MIT License&style=for-the-badge)
+### 📝 License
+![badge](https://img.shields.io/badge/license-Apache-brightgreen)
 
-### Contributors
+### 🤝 Contributors
 test
 
 ### Acknowledgments
 undefined
 
-### GitHub Username
-jpd61
-my_email@github.com
-
-### Avatar Image
+### GitHub  👤 
+jpd61:undefined
 <img src="https://avatars3.githubusercontent.com/u/61440109?v=4"/>
-/n* Copyright 2020 &copy;
+_This README was generated with ❤️ by [README-generator](https://github.com/jpd61/README-generator)_
     

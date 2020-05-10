@@ -84,7 +84,7 @@ function promptUser(){
       console.log(results);
       await writeFileAsync('README.md', generateContent);
   
-      console.log('Successfully wrote to README.md');
+      console.log('✔️  Successfully wrote to README.md');
     } catch(err) {
       console.log(err);
     }
