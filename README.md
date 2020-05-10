@@ -7,6 +7,8 @@
 <br />
 Below is the gif showing the functionality of the application: <br />
 ![DeWoody README Generator](./src/dewoody-readme-generator.gif)
+<br />
+The full movie file showing functionality of the application can be found [here](./src/dewody-readme-generator-movie.webm)
 
 ## Table of Contents
 - [Description](#description)
