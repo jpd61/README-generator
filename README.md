@@ -73,6 +73,7 @@ THEN I am taken to the corresponding section of the README
 💾   
   
 `npm init`
+  
 `npm install inquirer`
   
 ## Usage
