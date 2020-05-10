@@ -1,9 +1,9 @@
 
-<h1 align="center">DeWoody README Generator 👋</h1>
+<h1 align="center">test 👋</h1>
 
 ## Description
-![badge](https://img.shields.io/badge/license-Mozilla-brightgreen)<br />
-🔍 a readme generator to make new readmes based on user information
+![badge](https://img.shields.io/badge/license-ISC-brightgreen)<br />
+🔍 test
 
 ## Table of Contents
 - [Description](#description)
@@ -15,25 +15,24 @@
 - [Questions](#questions)
 
 ## Installation
-💾 install
+💾 test
 
 ## Usage
-💻 creating readme
+💻 test
 
 ## License
-![badge](https://img.shields.io/badge/license-Mozilla-brightgreen)
+![badge](https://img.shields.io/badge/license-ISC-brightgreen)
 
 ## Contributing
-👪 DeWoody
+👪 test
 
 ## Tests
-✏️ yep
+✏️ test
 
 ## Questions
-✋ call me<br />
+✋ test<br />
 🚶 jpd61:<br />
 ✉️ Email me with any questions: jpd@dewoodyoil.com<br />
-<img src="https://avatars3.githubusercontent.com/u/61440109?v=4" alt="jpd61" width=50"/><br />
 
 _This README was generated with ❤️ by [README-generator](https://github.com/jpd61/README-generator) 🔥🔥🔥_
     

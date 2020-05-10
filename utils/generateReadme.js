@@ -35,7 +35,6 @@ function generateReadme(answers) {
 ✋ ${answers.questions}<br />
 🚶 ${answers.username}:<br />
 ✉️ Email me with any questions: ${answers.email}<br />
-<img src="${answers.avatar_url}" alt="${answers.username}" width=50"/><br />
 
 _This README was generated with ❤️ by [README-generator](https://github.com/jpd61/README-generator) 🔥🔥🔥_
     `;

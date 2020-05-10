@@ -3,7 +3,6 @@ const fs = require("fs");
 const util = require("util");
 const inquirer = require("inquirer");
 const generateReadme = require("./utils/generateReadme")
-const apiCall = require("./api")
 const writeFileAsync = util.promisify(fs.writeFile);
 
 //Prompt the user for Github username and project details
@@ -76,10 +75,7 @@ function promptUser(){
   async function init() {
     try {
       const answers = await promptUser();
-      const results = await apiCall(answers.username);
-      answers.avatar_url = results.avatar_url;
       const generateContent = generateReadme(answers);
-       
       await writeFileAsync('README.md', generateContent);
   
       console.log('✔️  Successfully wrote to README.md');
