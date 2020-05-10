@@ -4,19 +4,13 @@
 ## Description
 ![badge](https://img.shields.io/badge/license-ISC-brightgreen) 
 <p align="center">
-  <img src="https://img.shields.io/github/repo-size/jpd61/README-generator" />
-  <a href="https://github.com/kefranabg/readme-md-generator/blob/master/LICENSE">
-    <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-yellow.svg" target="_blank" />
-  </a>
-  <a href="https://codecov.io/gh/kefranabg/readme-md-generator">
-    <img src="https://codecov.io/gh/kefranabg/readme-md-generator/branch/master/graph/badge.svg" />
-  </a>
-  <a href="https://github.com/frinyvonnick/gitmoji-changelog">
-    <img src="https://img.shields.io/badge/changelog-gitmoji-brightgreen.svg" alt="gitmoji-changelog">
-  </a>
-  <a href="https://twitter.com/jpdewoody">
-    <img alt="Twitter: jpdewoody" src="https://img.shields.io/twitter/follow/jpdewoody.svg?style=social" target="_blank" />
-  </a>
+    <img src="https://img.shields.io/github/repo-size/jpd61/README-generator" />
+    <img src="https://img.shields.io/github/languages/top/jpd61/README-generator"  />
+    <img src="https://img.shields.io/github/issues/jpd61/README-generator" />
+    <img src="https://img.shields.io/github/last-commit/jpd61/README-generator" >
+    <a href="https://twitter.com/jpdewoody">
+        <img alt="Twitter: jpdewoody" src="https://img.shields.io/twitter/follow/jpdewoody.svg?style=social" target="_blank" />
+    </a>
 </p>
    
 🔍 A node.js application that uses user input from inquirer to populate a README.md file for user repository. The README.md file is created in the dist directory and can be found [here](.dist/README.md)  
