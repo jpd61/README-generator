@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/jpd61/README-generator#readme",
   "dependencies": {
-    "inquirer": "^7.1.0"
+    "axios": "^0.19.2",
+    "inquirer": "^7.1.0",
+    "util": "^0.12.3"
   }
 }

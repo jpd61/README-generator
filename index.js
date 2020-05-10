@@ -1,138 +1,108 @@
-const inquirer = require('inquirer');
+// Declaring the dependencies and variables
+const fs = require("fs");
+const util = require("util");
+const inquirer = require("inquirer");
+const generateReadme = require("./utils/generateReadme")
+const apiCall = require("./api")
+const writeFileAsync = util.promisify(fs.writeFile);
 
-const { writeFile, copyFile } = require('./utils/generate-site.js');
-
-const generatePage = require('./src/page-template.js');
-
-const promptUser = () => {
+//Prompt the user for Github username and project details
+function promptUser(){
     return inquirer.prompt([
         {
-            type: 'input',
-            name: 'name',
-            message: 'What is your name? (Required)',
-            validate: nameInput => {
-              if (nameInput) {
-                return true;
-              } else {
-                console.log('Please enter your name!');
-                return false;
-              }
-            }
+            type: "input",
+            name: "projectTitle",
+            message: "What is the project title?",
         },
         {
-            type: 'input',
-            name: 'github',
-            message: 'Enter your GitHub Username (Required)',
-            validate: nameInput => {
-                if (nameInput) {
-                return true;
-                } else {
-                console.log('Please enter your GitHub Username!');
-                return false;
-                }
-            }
+            type: "input",
+            name: "description",
+            message: "Write a brief description of your project"
         },
         {
-            type: 'confirm',
-            name: 'confirmAbout',
-            message: 'Would you like to enter some information about yourself for an "About" section?',
-            default: true
+            type: "checkbox",
+            message: "Select the contents of your Table of Contents",
+            name: "tableOfContents",
+            choices: [
+                "Project Title",
+                "Description",
+                "Installation",
+                "Usage",
+                "License",
+                "Contributing",
+                "Tests",
+                "Questions"
+            ]
         },
         {
-            type: 'input',
-            name: 'about',
-            message: 'Provide some information about yourself:',
-            when: ({ confirmAbout }) => confirmAbout
-          }
+            type: "input",
+            name: "installation",
+            message: "Describe the installation process if any",
+        },
+        {
+            type: "input",
+            name: "usage",
+            message: "What is this project usage for?"
+        },
+        {
+            type: "list",
+            name: "license",
+            message: "Chose the appropiate license for this project",
+            choices: [
+                "Apache License 2.0",
+                "Academic Free License v3.0",
+                "GNU General Public License v3.0",
+                "ISC",
+                "MIT License",
+                "Mozilla Public License 2.0",
+                "Open Software License 3.0",
+                "The Unlicense"
+            ]
+        },
+        {
+            type: "input",
+            name: "contributing",
+            message: "Who are the contributors of this projects?"
+        },
+        {
+            type: "input",
+            name: "tests",
+            message: "Is there a Test included"
+        },
+        {
+            type: "input",
+            name: "acknowledgments",
+            message: "Is anyone to be acknowledge?"
+        },
+        {
+            type: "input",
+            name: "questions",
+            message: "What do I do if I have an issue?"
+        },
+        {
+            type: "input",
+            name: "username",
+            message: "Please enter your GitHub username"
+        }
     ]);
-  };
+} 
 
-const promptProject = portfolioData => {
-    // If there's no 'projects' array property, create one
-    if (!portfolioData.projects) {
-    portfolioData.projects = [];
+// Function async Inititing 
+  async function init() {
+    try {
+      const answers = await promptUser();
+      const results = await apiCall(answers.username);
+      answers.email = results.email;
+      answers.avatar_url = results.avatar_url;
+      const generateContent = generateReadme(answers);
+       
+      console.log(results);
+      await writeFileAsync('./dist/README.md', generateContent);
+  
+      console.log('Successfully wrote to README.md');
+    } catch(err) {
+      console.log(err);
     }
-    console.log(`
-  =================
-  Add a New Project
-  =================
-  `);
-    return inquirer.prompt([
-      {
-        type: 'input',
-        name: 'name',
-        message: 'What is the name of your project?'
-      },
-      {
-        type: 'input',
-        name: 'description',
-        message: 'Provide a description of the project (Required)',
-        validate: nameInput => {
-            if (nameInput) {
-            return true;
-            } else {
-            console.log('Please enter your Project Description!');
-            return false;
-            }
-        }
-      },
-      {
-        type: 'checkbox',
-        name: 'languages',
-        message: 'What did you this project with? (Check all that apply)',
-        choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node']
-      },
-      {
-        type: 'input',
-        name: 'link',
-        message: 'Enter the GitHub link to your project. (Required)',
-        validate: nameInput => {
-            if (nameInput) {
-            return true;
-            } else {
-            console.log('Please enter your GitHub Link!');
-            return false;
-            }
-        }
-      },
-      {
-        type: 'confirm',
-        name: 'feature',
-        message: 'Would you like to feature this project?',
-        default: false
-      },
-      {
-        type: 'confirm',
-        name: 'confirmAddProject',
-        message: 'Would you like to enter another project?',
-        default: false
-      }
-    ])
-    .then(projectData => {
-        portfolioData.projects.push(projectData);
-        if (projectData.confirmAddProject) {
-            return promptProject(portfolioData);
-        } else {
-            return portfolioData;
-        }
-    })
-  };
-
-promptUser()
-  .then(promptProject)
-  .then(portfolioData => {
-    return generatePage(portfolioData);
-  })
-  .then(pageHTML => {
-    return writeFile(pageHTML);
-  })
-  .then(writeFileResponse => {
-    console.log(writeFileResponse);
-    return copyFile();
-  })
-  .then(copyFileResponse => {
-    console.log(copyFileResponse);
-  })
-  .catch(err => {
-    console.log(err);
-  });
+  }
+  
+  init();  
