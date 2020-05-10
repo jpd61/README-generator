@@ -20,21 +20,6 @@ function promptUser(){
             message: "Write a brief description of your project"
         },
         {
-            type: "checkbox",
-            message: "Select the contents of your Table of Contents",
-            name: "tableOfContents",
-            choices: [
-                "Project Title",
-                "Description",
-                "Installation",
-                "Usage",
-                "License",
-                "Contributing",
-                "Tests",
-                "Questions"
-            ]
-        },
-        {
             type: "input",
             name: "installation",
             message: "Describe the installation process if any",

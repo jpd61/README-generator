@@ -1,27 +1,37 @@
 
 # README.md_Generator
 Using Node.js, generate a template README.md file with users input to generate the README.
-test
+jose
         
 ## Description    
-test
+jose
         
-## Table of Content
-Project Title,Description,Installation,Usage,License,Contributing,Tests,Questions
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Dependencies](#dependencies)
+- [Usage](#usage)
+- [Built With](#built-with)
+- [Questions](#questions)
+- [License](#license)
+- [Contributors](#contributors)
+- [Acknowledgments](#acknowledgments)
+- [Images](#images)
+- [CopyRight](#copyright)
         
 ### Installation
-test
+jose
 ### Usage
-test
+jose
 ### Built With
 * [VScode](https://code.visualstudio.com/)
 * [Gitbash](https://gitforwindows.org/)
 ### Questions
-test
+jose
         
-### LicenseISC
+### LicenseMIT License
 ### Contributors
-test
+jose
 ### Acknowledgments
 #### Badges
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
@@ -30,5 +40,5 @@ test
 my_email@github.com
 ### Avatar Image
 <img src="https://avatars3.githubusercontent.com/u/61440109?v=4"/>
-/nCopyright 2020 &copy;
+/n* Copyright 2020 &copy;
     

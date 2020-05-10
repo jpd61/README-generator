@@ -8,8 +8,18 @@ ${answers.projectTitle}
 ## Description    
 ${answers.description}
         
-## Table of Content
-${answers.tableOfContents}
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Dependencies](#dependencies)
+- [Usage](#usage)
+- [Built With](#built-with)
+- [Questions](#questions)
+- [License](#license)
+- [Contributors](#contributors)
+- [Acknowledgments](#acknowledgments)
+- [Images](#images)
+- [CopyRight](#copyright)
         
 ### Installation
 ${answers.installation}
@@ -32,7 +42,7 @@ ${answers.contributing}
 ${answers.email}
 ### Avatar Image
 <img src="${answers.avatar_url}"/>
-/nCopyright 2020 &copy;
+/n* Copyright 2020 &copy;
     `;
   }
   
