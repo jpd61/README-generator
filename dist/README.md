@@ -1,13 +1,14 @@
 
-<h1 align="center">test 👋</h1>
+<h1 align="center">README Generator using node.js 👋</h1>
   
-![badge](https://img.shields.io/badge/license-Academic-brightgreen)<br />
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
 
 ## Description
-🔍 test
+🔍 A node.js application that creates a generated README.md file to the dist directory
 
 ## Table of Contents
 - [Description](#description)
+- [Table of Contents](#table-of-contents)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
@@ -16,28 +17,28 @@
 - [Questions](#questions)
 
 ## Installation
-💾 test
+💾 npm install inquirer is required
 
 ## Usage
-💻 test
+💻 UT Coding Bootcamp class assignment
 
 ## License
-![badge](https://img.shields.io/badge/license-Academic-brightgreen)
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 <br />
 This application is covered by the Academic license. 
 
 ## Contributing
-👪 test
+👪 Joseph DeWoody
 
 ## Tests
-✏️ test
+✏️ No tests are included
 
 ## Questions
-✋ test<br />
+✋ email me or reach out on GitHub<br />
 <br />
 :octocat: Find me on GitHub: [jpd61](https://github.com/jpd61)<br />
 <br />
-✉️ Email me with any questions: d@d.com<br /><br />
+✉️ Email me with any questions: jpd@dewoodyoil.com<br /><br />
 
 _This README was generated with ❤️ by [README-generator](https://github.com/jpd61/README-generator) 🔥🔥🔥_
     
