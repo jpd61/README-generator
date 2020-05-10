@@ -1,12 +1,14 @@
 
 <h1 align="center">README Generator using node.js 👋</h1>
-![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
+  
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
 ## Description
 🔍 A node.js application that creates a generated README.md file to the dist directory
 
 ## Table of Contents
 - [Description](#description)
+- [Table of Contents](#table-of-contents)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
