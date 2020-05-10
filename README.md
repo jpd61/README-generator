@@ -34,7 +34,7 @@
 ## User Story
   
 ```
- AS A developer
+AS A developer
 I WANT a README generator
 SO THAT can quickly create a professional README for a new project 
 ```
@@ -72,6 +72,7 @@ THEN I am taken to the corresponding section of the README
 ## Installation
 💾   
   
+`npm init`
 `npm install inquirer`
   
 ## Usage
