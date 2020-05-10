@@ -1,6 +1,7 @@
 
 <h1 align="center">test 👋</h1>
-![badge](https://img.shields.io/badge/license-Apache-brightgreen)<br />
+  
+![badge](https://img.shields.io/badge/license-Academic-brightgreen)<br />
 
 ## Description
 🔍 test
@@ -21,9 +22,9 @@
 💻 test
 
 ## License
-![badge](https://img.shields.io/badge/license-Apache-brightgreen)
+![badge](https://img.shields.io/badge/license-Academic-brightgreen)
 <br />
-This application is covered by the Apache license. 
+This application is covered by the Academic license. 
 
 ## Contributing
 👪 test
@@ -34,9 +35,9 @@ This application is covered by the Apache license.
 ## Questions
 ✋ test<br />
 <br />
-:octocat: Find me on GitHub: [jpd61](https://github.com/jpd61)
+:octocat: Find me on GitHub: [jpd61](https://github.com/jpd61)<br />
 <br />
-✉️ Email me with any questions: jpd@dewoodyoil.com<br /><br />
+✉️ Email me with any questions: d@d.com<br /><br />
 
 _This README was generated with ❤️ by [README-generator](https://github.com/jpd61/README-generator) 🔥🔥🔥_
     
