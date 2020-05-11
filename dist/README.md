@@ -25,7 +25,7 @@
 ## License
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 <br />
-This application is covered by the Academic license. 
+This application is covered by the MIT license. 
 
 ## Contributing
 👪 Joseph DeWoody
